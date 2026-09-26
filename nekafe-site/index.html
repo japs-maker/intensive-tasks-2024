@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Некафе — антикафе на Кирова, 13 · Оренбург</title>
+<meta name="description" content="Антикафе «Некафе» в Оренбурге: платите за время, а чай, кофе, настолки, Xbox и кинозал — включены. ул. Кирова, 13, Гостиный двор. Бронь: +7 987 878-18-19.">
+<meta property="og:title" content="Некафе — антикафе в Оренбурге">
+<meta property="og:description" content="Платите за время — остальное включено. Настолки, Xbox, кинозал, мафия. ул. Кирова, 13.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#1b1512">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%23f2a541'/><text x='32' y='45' font-size='36' text-anchor='middle' font-family='Arial' font-weight='700' fill='%231b1512'>Н</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
+<!-- Структурированные данные для поисковиков (Яндекс, Google) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CafeOrCoffeeShop",
+  "name": "Некафе",
+  "description": "Антикафе: оплата за время, напитки и развлечения включены",
+  "telephone": "+79878781819",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "ул. Кирова, 13, 1 этаж (Гостиный двор)",
+    "addressLocality": "Оренбург",
+    "addressCountry": "RU"
+  },
+  "openingHoursSpecification": [
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Sunday","Monday","Tuesday","Wednesday","Thursday"], "opens": "12:00", "closes": "00:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday","Saturday"], "opens": "12:00", "closes": "02:00"}
+  ],
+  "priceRange": "2 ₽/мин"
+}
+</script>
+</head>
+<body>
+
+<a class="skip" href="#main">Перейти к содержимому</a>
+
+<header class="nav" id="top">
+  <div class="wrap nav__inner">
+    <a href="#top" class="logo" aria-label="Некафе — на главную"><span class="logo__mark">Н</span>Некафе</a>
+    <button class="nav__toggle" aria-expanded="false" aria-controls="menu" aria-label="Открыть меню">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="menu" class="nav__menu">
+      <a href="#price">Цены</a>
+      <a href="#fun">Развлечения</a>
+      <a href="#events">Для компаний</a>
+      <a href="#faq">Вопросы</a>
+      <a href="#contacts">Контакты</a>
+      <a href="tel:+79878781819" class="btn btn--small">Забронировать</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- Первый экран -->
+  <section class="hero">
+    <div class="wrap hero__inner">
+      <div class="hero__text">
+        <p class="status" id="status" aria-live="polite">Проверяем, открыты ли мы…</p>
+        <h1>Платите за&nbsp;время.<br><span class="accent">Остальное — включено.</span></h1>
+        <p class="lead">Антикафе в центре Оренбурга: чай и кофе, настолки, Xbox, кинозал и вечера мафии. Приходите с друзьями — никто не поторопит.</p>
+        <div class="hero__cta">
+          <a href="tel:+79878781819" class="btn">Позвонить и забронировать</a>
+          <a href="#price" class="btn btn--ghost">Посчитать стоимость</a>
+        </div>
+        <ul class="facts">
+          <li><b>2 ₽</b><span>за минуту</span></li>
+          <li><b>480 ₽</b><span>максимум за визит*</span></li>
+          <li><b>до 02:00</b><span>в пт и сб</span></li>
+        </ul>
+      </div>
+      <div class="hero__art" aria-hidden="true">
+        <div class="clock">
+          <div class="clock__face">
+            <span class="clock__hand clock__hand--h"></span>
+            <span class="clock__hand clock__hand--m"></span>
+            <span class="clock__dot"></span>
+          </div>
+        </div>
+        <div class="chip chip--1">☕ чай и кофе</div>
+        <div class="chip chip--2">🎲 настолки</div>
+        <div class="chip chip--3">🎮 Xbox</div>
+        <div class="chip chip--4">🎬 кино</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Как это работает -->
+  <section class="section" id="how">
+    <div class="wrap">
+      <h2>Как устроено антикафе</h2>
+      <ol class="steps">
+        <li><b>Приходите</b><span>Отмечаем время начала на входе — без депозитов и минимального чека.</span></li>
+        <li><b>Отдыхайте</b><span>Напитки, игры, приставка и Wi-Fi уже в стоимости. Можно принести свою еду или заказать доставку.</span></li>
+        <li><b>Платите за минуты</b><span>На выходе считаем только проведённое время. После 4 часов счёт больше не растёт.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Цены и калькулятор -->
+  <section class="section section--alt" id="price">
+    <div class="wrap price">
+      <div>
+        <h2>Сколько это стоит</h2>
+        <p>Одна минута — <b>2 рубля</b>. Час — 120 ₽. После четырёх часов время дальше бесплатно, так что сидеть весь вечер выгодно.</p>
+        <p class="muted">* Цены взяты из открытых источников — актуальные уточняйте по телефону.</p>
+      </div>
+      <form class="calc" onsubmit="return false">
+        <label for="hours">Сколько планируете пробыть?</label>
+        <output id="hoursOut" for="hours">2 ч 00 мин</output>
+        <input type="range" id="hours" min="15" max="480" step="15" value="120">
+        <label for="people">Сколько вас?</label>
+        <div class="stepper">
+          <button type="button" data-step="-1" aria-label="Меньше">−</button>
+          <input type="number" id="people" min="1" max="30" value="2" inputmode="numeric">
+          <button type="button" data-step="1" aria-label="Больше">+</button>
+        </div>
+        <div class="calc__total">
+          <span>Итого</span>
+          <b id="total">480 ₽</b>
+          <small id="perPerson">240 ₽ с человека</small>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Развлечения -->
+  <section class="section" id="fun">
+    <div class="wrap">
+      <h2>Чем заняться</h2>
+      <div class="cards">
+        <article class="card"><span class="card__icon">🎲</span><h3>Настольные игры</h3><p>Большая полка настолок — от быстрых вечериночных до серьёзных стратегий. Подскажем правила.</p></article>
+        <article class="card"><span class="card__icon">🎮</span><h3>Xbox</h3><p>Приставка и геймпады на компанию: гонки, файтинги, кооператив.</p></article>
+        <article class="card"><span class="card__icon">🎬</span><h3>Кинозал</h3><p>Смотрите фильм, сериал или матч своей компанией на большом экране.</p></article>
+        <article class="card"><span class="card__icon">🕵️</span><h3>Мафия</h3><p>Регулярные игровые вечера с ведущим — приходите одни, команда найдётся.</p></article>
+        <article class="card"><span class="card__icon">☕</span><h3>Чай, кофе, печенье</h3><p>Горячие напитки и сладкое к чаю — без ограничений на всё время визита.</p></article>
+        <article class="card"><span class="card__icon">📶</span><h3>Wi-Fi и розетки</h3><p>Можно поработать или поучиться в спокойной обстановке.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Для компаний -->
+  <section class="section section--alt" id="events">
+    <div class="wrap events">
+      <div>
+        <h2>Праздник или встреча?</h2>
+        <p>Есть общий зал и отдельная комната. Подходит для дня рождения, встречи одногруппников, тимбилдинга или игрового вечера. Свой торт и угощения — можно.</p>
+        <ul class="ticks">
+          <li>Аренда отдельной комнаты</li>
+          <li>Помощь с программой: мафия, квизы, турнир на Xbox</li>
+          <li>Парковка рядом</li>
+        </ul>
+        <a href="tel:+79878781819" class="btn">Обсудить мероприятие</a>
+      </div>
+      <blockquote class="quote">
+        «Уютное место, где можно спокойно посидеть с друзьями, поиграть и никуда не спешить».
+        <cite>— так в целом отзываются гости на картах</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="wrap narrow">
+      <h2>Частые вопросы</h2>
+      <details><summary>Нужно ли бронировать?</summary><p>В будни обычно можно прийти без брони. На вечер пятницы и субботы и для компаний от 6 человек лучше позвонить заранее.</p></details>
+      <details><summary>Можно ли со своей едой?</summary><p>Да. Можно принести еду с собой или заказать доставку прямо в антикафе.</p></details>
+      <details><summary>Что входит в стоимость?</summary><p>Чай, кофе, сладости, настольные игры, Xbox, кинозал и Wi-Fi.</p></details>
+      <details><summary>Сколько я заплачу, если просижу весь вечер?</summary><p>Не больше, чем за 4 часа: после этого время не тарифицируется.</p></details>
+    </div>
+  </section>
+
+  <!-- Контакты -->
+  <section class="section section--alt" id="contacts">
+    <div class="wrap contacts">
+      <div>
+        <h2>Как нас найти</h2>
+        <dl class="info">
+          <dt>Адрес</dt><dd>Оренбург, ул. Кирова, 13, 1 этаж<br><span class="muted">Гостиный двор, Ленинский район</span></dd>
+          <dt>Телефон</dt><dd><a href="tel:+79878781819">+7 987 878-18-19</a></dd>
+          <dt>Часы работы</dt>
+          <dd>
+            <table class="hours" id="hoursTable">
+              <tr data-days="1,2,3,4,0"><td>Вс — Чт</td><td>12:00 — 00:00</td></tr>
+              <tr data-days="5,6"><td>Пт — Сб</td><td>12:00 — 02:00</td></tr>
+            </table>
+          </dd>
+        </dl>
+        <div class="hero__cta">
+          <a class="btn" href="https://yandex.ru/maps/?text=%D0%9E%D1%80%D0%B5%D0%BD%D0%B1%D1%83%D1%80%D0%B3%2C%20%D1%83%D0%BB.%20%D0%9A%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%2C%2013" target="_blank" rel="noopener">Маршрут в Яндекс Картах</a>
+          <a class="btn btn--ghost" href="https://2gis.ru/orenburg/firm/70000001006537375" target="_blank" rel="noopener">Открыть в 2ГИС</a>
+        </div>
+      </div>
+      <div class="map">
+        <iframe title="Некафе на карте" loading="lazy"
+          src="https://yandex.ru/map-widget/v1/?text=%D0%9E%D1%80%D0%B5%D0%BD%D0%B1%D1%83%D1%80%D0%B3%2C%20%D1%83%D0%BB.%20%D0%9A%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%2C%2013&z=16"></iframe>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <span>© Некафе, Оренбург</span>
+    <a href="tel:+79878781819">+7 987 878-18-19</a>
+  </div>
+</footer>
+
+<!-- Липкая кнопка звонка на телефонах -->
+<a href="tel:+79878781819" class="callbar">📞 Позвонить и забронировать</a>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 143" role="img" aria-label="не:ка:фе">
+  <!-- Векторная перерисовка логотипа по скриншоту; при наличии оригинала — заменить -->
+  <rect width="150" height="143" rx="18" fill="#444444"/>
+  <circle cx="112" cy="52" r="17" fill="#cc4ba6"/>
+  <path d="M109.5 44.5c4.5 1.5 6 8 3.5 14.5-3.5-1-5.5-7-3.5-14.5z" fill="#fff"/>
+  <text x="75" y="98" text-anchor="middle" fill="#fff"
+        font-family="Unbounded, Manrope, Arial, sans-serif" font-weight="700" font-size="20"
+        letter-spacing="-0.5">не:ка:фе</text>
+</svg>
